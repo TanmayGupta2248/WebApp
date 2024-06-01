@@ -13,34 +13,48 @@ header {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.logo img {
-    height: 60px;
-    width: 120px;
-    margin-right: 10px;
+.navbar {
+    display: flex;
 }
 
-.auth-buttons button {
-    margin-left: 1rem;
-    padding: 0.5rem 1rem;
+.navbar button {
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 20px;
     border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #4e8f04;
     cursor: pointer;
 }
 
-.home {
-    font-size: 16px;
+.navbar button:hover {
+    background-color: #ff9800;
+}
+
+.waitlist {
+    font-size: 20px;
     font-weight: bold;
     background-color: #fff;
     color: #4e8f04;
-    border: 1px solid #000;
+    
+}
+
+.home {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #4e8f04;
+   
 }
 
 .contact {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     background-color: #fff;
     color: #4e8f04;
-    border: 1px solid #000;
+    
 }
 
 .login {
@@ -80,10 +94,11 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    text-align: center;
+    text-align: bottom;
     max-width: 200px;
     flex: 1;
     margin: 1rem;
+    justify-content: bottom;
 }
 
 .course-fullWidthCard {
@@ -104,6 +119,8 @@ header {
 
 .course-card h3 {
     margin: 1rem 0 0.5rem;
+    text-align: center;
+    justify-content: bottom;
 }
 
 .see-more {
